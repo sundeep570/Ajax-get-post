@@ -1,0 +1,11 @@
+sundeepg@ksplph10139:~$ sudo chmod 777 -R /etc/php5/apache2 
+[sudo] password for sundeepg: 
+sundeepg@ksplph10139:~$ restart apache server
+restart: Unknown job: apache
+sundeepg@ksplph10139:~$ restart apache 
+restart: Unknown job: apache
+sundeepg@ksplph10139:~$ sudo service apache2 restart
+ * Restarting web server apache2                                                AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.1.1. Set the 'ServerName' directive globally to suppress this message
+                                                                         [ OK ]
+sundeepg@ksplph10139:~$ 
+

@@ -1,0 +1,7 @@
+:/var/www/html/magento1.9.2$ chmod +x PATCH_SUPEE-8788.sh
+:/var/www/html/magento1.9.2$ ./PATCH_SUPEE-8788.sh
+Checking if patch can be applied/reverted successfully...
+Patch was applied/reverted successfully.
+:/var/www/html/magento1.9.2$ 
+
+

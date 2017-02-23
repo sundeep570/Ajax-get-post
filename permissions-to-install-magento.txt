@@ -1,0 +1,33 @@
+sundeepg@ksplph10139:~$ cd /var/www/html/magento/
+sundeepg@ksplph10139:/var/www/html/magento$ sudo chmod 777 -R var
+[sudo] password for sundeepg: 
+sundeepg@ksplph10139:/var/www/html/magento$ sudo chmod 777 -R pub
+sundeepg@ksplph10139:/var/www/html/magento$ sudo php bin/magento setup:install --base-url=http://192.168.10.134/magento/ \--db-host=localhost --db-name=magento --db-user=root --db-password=kspl1234 \--admin-firstname=Magento --admin-lastname=User --admin-email=user@example.com \--admin-user=admin --admin-password=admin123 --language=en_US \--currency=USD --timezone=America/Chicago
+
+.
+.
+.
+.
+after this
+.
+.execute this steps---->
+sudo chmod 777 -R var pub
+sudo php bin/magento cache:flush
+sudo php bin/magento setup:upgrade
+sudo php bin/magento setup:static-content:deploy
+sudo chmod 777 -R var pub
+sudo php bin/magento cache:flush
+.
+.
+.
+to install write command like this example
+sundeepg@ksplph10139:/var/www/html/magento$ sudo apt-get install bing
+.
+.
+.That's it
+
+
+
+
+
+

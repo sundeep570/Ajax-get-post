@@ -1,0 +1,24 @@
+to check history or previous in terminal
+$ sudo nano etc/hosts
+.
+.
+to search for a file or word through terminal
+$ grep -r "test-block" app/
+.
+.(or)
+.	sundeepg@ksplph10139:/var/www/html/magento2/app/code/Additional$ grep -rn "sr" *
+.
+To enter into mysql 
+$ mysql -u root -p
+after this it will ask password of mysql
+.
+.
+To install db file
+mysql -u root -p dbname < /var/www/html/dbfilename.sql
+.
+.
+.
+To copy files from one system to our system
+scp -r sundeepg@192.168.10.139:/var/www/html/filename   /var/www/html/
+The path is -->/var/www/html/filename is where file is located and the path---> /var/www/html/ is where we have to copy those files
+

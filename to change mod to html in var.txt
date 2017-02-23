@@ -1,0 +1,5 @@
+sundeepg@ksplph10139:~$ cd /var/www/
+sundeepg@ksplph10139:/var/www$ sudo chmod -R 777 html/
+[sudo] password for sundeepg: 
+sundeepg@ksplph10139:/var/www$ ^C
+sundeepg@ksplph10139:/var/www$ 
