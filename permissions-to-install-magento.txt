@@ -10,6 +10,7 @@ sundeepg@ksplph10139:/var/www/html/magento$ sudo php bin/magento setup:install -
 .
 after this
 .
+.
 .execute this steps---->
 sudo chmod 777 -R var pub
 sudo php bin/magento cache:flush
